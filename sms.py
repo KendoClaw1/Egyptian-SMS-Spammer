@@ -18,7 +18,7 @@ print "To stop the script Press CTRL + C"
 
 
 parser = argparse.ArgumentParser(description="SMS Spammer By KendoClaw1")
-parser.add_argument("-p", help="PhoneNumber to send SMS to.",type=int,metavar="PhoneNumber")
+parser.add_argument("-p", help="PhoneNumber to send SMS to.",metavar="PhoneNumber")
 parser.add_argument("-n", help="Number of SMS's to send",type=int,metavar="NumOfSMS")
 args = parser.parse_args()
 
