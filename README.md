@@ -19,4 +19,4 @@ SMS Spammer By KendoClaw1
 
 -n NumOfSMS     Number of SMS's to send (Default = 20)
 
--f file.txt     Load a list of numbers from a file to spam (Optiona
+-f file.txt     Load a list of numbers from a file to spam (Optional)
